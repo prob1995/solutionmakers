@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  {% include "common/head.html" %}
+  <body role="document">
+  <!-- Header -->  
+  {% include "common/header.html" %}
+
+    <div class="container theme-showcase" role="main">
+      <div class="page-header">
+      </div>
+        <!-- Login -->
+        <div class="row">
+            <div class="col-md-4">
+			</div>
+		    <div class="col-md-4">
+		        <div class="form-group">
+              <label for="newname">姓名</label>
+              <input type="text" class="form-control input-lg" id="newname" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label for="newemail">電子信箱</label>
+              <input type="email" class="form-control input-lg" id="newemail" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="newpassword">密碼</label>
+              <input type="password" class="form-control input-lg" id="newpassword" placeholder="Password">
+            </div>  
+
+            <div class="form-group">
+            <label for="newmajor">背景</label>
+            <select class="form-control input-lg" id='newmajor' placeholder="Major">
+              <option value="mechanical">機械</option>
+              <option value="electrical">電子</option>
+              <option value="culture">文化</option>
+              <option value="design">設計</option>
+              <option value="computer">電腦</option>
+              <option value="others">其他</option>
+            </select>
+            </div>
+            
+            <div class="form-group">
+            <label for="interest">對哪個區塊較感興趣</label>
+            <select class="form-control input-lg" id='interest' placeholder="interest">
+              <option value="議題研究">議題研究</option>
+              <option value="群眾解法">群眾解法</option>
+              <option value="社會設計同好">社會設計同好</option>
+              <option value="all">全部</option>
+            </select>  
+            </div>
+            
+          <!-- Large button group -->
+          <!--
+            <p>
+            <div class="btn-group">
+                <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                Major
+                <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li>Mechanics</li>
+                  <li>Eletrics</li>
+                </ul>
+            </div>
+            </p>
+            -->
+          <br>
+          <p>
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="newAccount()">註冊</button>
+          </p>
+        </div>
+		    <div class="col-md-4">
+			  </div>
+      </div>
+        <!-- /Login -->
+
+
+      <!-- footer -->  
+      {% include "common/footer.html" %}
+
+    </div> <!-- /container -->
+
+
+ 
+    <!-- bottom Bootstrap and JS -->
+    {% include "common/bottom_js.html" %}
+  </body>
+</html>

@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  {% include "common/head.html" %}
+  <body role="document">
+  <!-- Header -->  
+  {% include "common/header.html" %}
+
+    <div class="container theme-showcase" role="main">
+      <div class="page-header">
+      </div>
+        <!-- Login -->
+      <div class="row">
+		    <div class="col-md-8">
+		      <h3>My Account</h3>
+		      <hr>
+		        <dl class="dl-horizontal">
+		          <body onload="account()">
+		          <dt id="name">Name:</dt>
+		          <!--<dd>Polin</dd>-->
+		          <dt id="email">Email:</dt>
+		          <!--<dd>polin@ni.com</dd>-->
+		          <dt id="major">Major:</dt>
+		          <!--<dd>家裡</dd>-->
+		        </dl>
+			</div>
+		    <div class="col-md-4">
+		        <p>
+		            <button type="button" class="btn btn-primary btn-block" onclick="goMain()">Back to mainpage</button>
+		            <button type="button" class="btn btn-default btn-block" onclick="logOut()">Log Out</button>
+	          </p>
+		    </div>
+      </div>
+      <!-- /Login -->
+
+
+      <!-- footer -->  
+      {% include "common/footer.html" %}
+
+    </div> <!-- /container -->
+
+ 
+    <!-- bottom Bootstrap and JS -->
+    {% include "common/bottom_js.html" %}
+  </body>
+</html>

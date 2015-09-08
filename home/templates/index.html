@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  {% include "common/head.html" %}
+  <body role="document">
+  <!-- Header -->  
+  {% include "common/header.html" %}
+
+  <div class="container theme-showcase" role="main">
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <div class="page-header">
+      </div>
+      <div class="row">
+      <img class="img-responsive center-block" src="../static/image/home/world300.png" alt="World Map" width="1080px">
+      </div>
+      <hr>
+      <!-- Three columns of text below the carousel-->
+      <div class="row">
+        <div class="col-sm-6 center">
+          <img class="img-circle img-responsive center-block" src="../static/image/home/issue.jpg" alt="Generic placeholder image" width="250" height="250">
+          <h2>Issues</h2>
+          <p>See what issues we've discovered.</p>
+          <p><a class="btn btn-default" href="/issues" role="button">Issues &raquo;</a></p>
+        </div>
+        
+        <div class="col-sm-6 center">
+          <img class="img-circle img-responsive center-block" src="../static/image/home/solution.jpg" alt="Generic placeholder image" width="250" height="250">
+          <h2>Solutions</h2>
+          <p>See what solutions we have now.</p>
+          <p><a class="btn btn-default" href="/solutions" role="button">View Solutions &raquo;</a></p>
+        </div>
+
+      </div><!-- /.row -->
+    </div>
+    
+      <!-- footer -->  
+      {% include "common/footer.html" %}
+
+    </div> <!-- /container -->
+
+    <!-- bottom Bootstrap and JS -->
+    {% include "common/bottom_js.html" %}
+
+  </body>
+</html>

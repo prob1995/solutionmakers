@@ -11,3 +11,6 @@ def account(request):
     return render(request,"account.html")
     
     
+def resetpw(request):
+    return render(request,"resetpw.html")
+    

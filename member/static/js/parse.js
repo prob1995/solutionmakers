@@ -89,3 +89,18 @@ function logged(){
   window.location = "/login";
   }
 };
+
+function resetpw(){
+  Parse.initialize("DOCFRQzHNP4zxWW8S1QfyQ7l8pAsfzPcr8U9r1qe", "AX7yzCEAWZRFiceDVupx1aqjW1OqYbNYnNp16dej");
+  var email = document.getElementById('newemail').value;
+  Parse.User.requestPasswordReset(email, {
+  success: function() {
+  // Password reset request was sent successfully
+  alert('請查看email來重設密碼');
+  },
+  error: function(error) {
+    // Show the error message somewhere
+    alert("Error: " + error.code + " " + error.message);
+  }
+});
+}

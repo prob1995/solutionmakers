@@ -16,13 +16,13 @@
     font-size:16px;
 }
 
+.text-center{
+    text-align:center;
+}
+
 .vertical-space-around2{
-    flex-direction: column;
-    display: flex;
-    justify-content: space-around;
     align-items: center;
-    height: 500px;
-    font-size:16px;
+    justify-content: space-around;
 }
 
 .panel-title {
@@ -40,4 +40,11 @@
 .navbar.navbar-default.navbar-fixed-top {
     background-color: #FFFFFF;
     border-color: #e7e7e7;
+}
+
+.dt-font{
+    font-size:22px;
+}
+.dd-font{
+    font-size:18px;
 }

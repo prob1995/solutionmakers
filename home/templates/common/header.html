@@ -32,8 +32,10 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a class="text-center" href="javascript: void(0)" onClick="logged()">加入會員獲得最新資訊 -></a>
+              <!-- Don't show this text on mobile -->
+              <a class="hidden-xs" href="javascript: void(0)" onClick="logged()">加入會員獲得最新資訊 -></a>
             </li>
+            
             <li>
               <a class="glyphicon glyphicon-user" aria-hidden="true" href="javascript: void(0)" onClick="logged()"></a>
             </li>

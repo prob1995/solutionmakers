@@ -55,3 +55,12 @@ body {
     vertical-align: middle;
     float: none;
 }
+
+.hleft{
+    text-align: left;
+}
+
+.eliv-margin{
+    margin-bottom:50px;
+    margin-top:50px;
+}

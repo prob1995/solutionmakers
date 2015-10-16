@@ -17,6 +17,7 @@ urlpatterns = patterns('',
     url(r'^issues/','home.views.issues'),
     url(r'^solutions/','home.views.solutions'),
     url(r'^resetpw/','member.views.resetpw'),
+    url(r'^en/issue','home.views.issue_e'),
 
     
 )

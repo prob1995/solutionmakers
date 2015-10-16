@@ -18,3 +18,6 @@ def issues(request):
     
 def solutions(request):
     return render(request,"solution/solutions.html")
+    
+def issue_e(request):
+    return render(request,"en/issues_e.html")

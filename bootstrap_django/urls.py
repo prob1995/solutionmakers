@@ -18,6 +18,10 @@ urlpatterns = patterns('',
     url(r'^solutions/','home.views.solutions'),
     url(r'^resetpw/','member.views.resetpw'),
     url(r'^en/issue','home.views.issue_e'),
-
+    url(r'^en/bissue','home.views.bissue_e'),
+    url(r'^en/fwissue','home.views.fwissue_e'),
+    url(r'^en/omissue','home.views.omissue_e'),
+    url(r'^en/solutions','home.views.solutions_e'),
+    url(r'^en/index','home.views.index_e'),
     
 )

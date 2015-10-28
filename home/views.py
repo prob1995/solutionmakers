@@ -21,3 +21,18 @@ def solutions(request):
     
 def issue_e(request):
     return render(request,"en/issues_e.html")
+    
+def bissue_e(request):
+    return render(request,"en/issue_e/bissue_e.html")
+
+def fwissue_e(request):
+    return render(request,"en/issue_e/fwissue_e.html")
+    
+def omissue_e(request):
+    return render(request,"en/issue_e/omissue_e.html")
+    
+def index_e(request):
+    return render(request,"en/index_e.html")
+    
+def solutions_e(request):
+    return render(request,"en/solutions_e.html")

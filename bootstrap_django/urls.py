@@ -16,6 +16,8 @@ urlpatterns = patterns('',
     url(r'^bissue/','home.views.bissue'),
     url(r'^issues/','home.views.issues'),
     url(r'^solutions/','home.views.solutions'),
+    url(r'^about/','home.views.about'),
+
     url(r'^resetpw/','member.views.resetpw'),
     url(r'^en/issue','home.views.issue_e'),
     url(r'^en/bissue','home.views.bissue_e'),
@@ -23,5 +25,6 @@ urlpatterns = patterns('',
     url(r'^en/omissue','home.views.omissue_e'),
     url(r'^en/solutions','home.views.solutions_e'),
     url(r'^en/index','home.views.index_e'),
+    url(r'^en/about','home.views.about_e'),
     
 )

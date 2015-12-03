@@ -19,6 +19,9 @@ def issues(request):
 def solutions(request):
     return render(request,"solution/solutions.html")
     
+def about(request):
+    return render(request,"about.html")    
+    
 def issue_e(request):
     return render(request,"en/issues_e.html")
     
@@ -36,3 +39,6 @@ def index_e(request):
     
 def solutions_e(request):
     return render(request,"en/solutions_e.html")
+    
+def about_e(request):
+    return render(request,"en/about_e.html")

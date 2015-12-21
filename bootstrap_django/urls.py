@@ -27,4 +27,7 @@ urlpatterns = patterns('',
     url(r'^en/index','home.views.index_e'),
     url(r'^en/about','home.views.about_e'),
     
+    #for Arduino course
+     url(r'^course','home.views.course'),
+    
 )

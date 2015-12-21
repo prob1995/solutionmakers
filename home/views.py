@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.shortcuts import redirect
 
 # Create your views here.
 def home(request):
@@ -42,3 +43,7 @@ def solutions_e(request):
     
 def about_e(request):
     return render(request,"en/about_e.html")
+
+#For Arduino course    
+def course(request):
+    return redirect("https://drive.google.com/folderview?id=0B8RpWqb4YXwsMkhOcGdsdVZ3TnM&usp=sharing")

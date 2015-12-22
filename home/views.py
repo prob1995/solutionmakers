@@ -46,4 +46,4 @@ def about_e(request):
 
 #For Arduino course    
 def course(request):
-    return redirect("https://drive.google.com/folderview?id=0B8RpWqb4YXwsMkhOcGdsdVZ3TnM&usp=sharing")
+    return redirect("https://drive.google.com/drive/folders/0B8RpWqb4YXwsMkhOcGdsdVZ3TnM")
